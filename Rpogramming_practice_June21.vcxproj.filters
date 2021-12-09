@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{bc29503d-79fa-47f6-9810-d072e0a8047f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{6363a960-ce72-44c3-96aa-d16a5edd2972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Heap_Priority_Queue">
+      <UniqueIdentifier>{362d8c29-b838-4bc2-a693-8097934a0e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arrays">
+      <UniqueIdentifier>{7be02b5b-02d1-4998-9729-dec638bc40e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProblemQ">
+      <UniqueIdentifier>{de9897e3-09d1-47a2-bb87-619978812df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tree_Traversal.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS_BFS.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestPath.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Priority_Queue.cpp">
+      <Filter>Heap_Priority_Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Topological_sort.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="FindLeader-List.cpp">
+      <Filter>Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildTreeRelationship.cpp">
+      <Filter>ProblemQ</Filter>
+    </ClCompile>
+    <ClCompile Include="firndTripletSum.cpp">
+      <Filter>ProblemQ</Filter>
+    </ClCompile>
+    <ClCompile Include="FourSumProblem.cpp">
+      <Filter>ProblemQ</Filter>
+    </ClCompile>
+    <ClCompile Include="TopKelementinArray.cpp">
+      <Filter>ProblemQ</Filter>
+    </ClCompile>
+    <ClCompile Include="KthSmallestNumberInArray.cpp">
+      <Filter>ProblemQ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Priority_Queue.h">
+      <Filter>Heap_Priority_Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
