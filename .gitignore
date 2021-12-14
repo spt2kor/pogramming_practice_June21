@@ -1,0 +1,12 @@
+
+packages/Microsoft.Windows.CppWinRT.2.0.210714.1/.signature.p7s
+*.exe
+*.lib
+*.props
+*.targets
+*.xml
+packages/Microsoft.Windows.CppWinRT.2.0.210714.1/LICENSE
+*.nupkg
+packages/Microsoft.Windows.CppWinRT.2.0.210714.1/readme.txt
+*.obj
+.vs/

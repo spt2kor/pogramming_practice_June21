@@ -147,6 +147,8 @@
     <ClCompile Include="firndTripletSum.cpp" />
     <ClCompile Include="FourSumProblem.cpp" />
     <ClCompile Include="KthSmallestNumberInArray.cpp" />
+    <ClCompile Include="LCA_in_BSTtree.cpp" />
+    <ClCompile Include="LCA_In_SimpleTree.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Priority_Queue.cpp" />
     <ClCompile Include="ShortestPath.cpp">

@@ -66,6 +66,12 @@
     <ClCompile Include="KthSmallestNumberInArray.cpp">
       <Filter>ProblemQ</Filter>
     </ClCompile>
+    <ClCompile Include="LCA_in_BSTtree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="LCA_In_SimpleTree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Priority_Queue.h">

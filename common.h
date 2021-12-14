@@ -22,3 +22,15 @@ void threeTripletSumProblem();
 void FindFourSumProblem();
 int GetTopThreeLargestElementsDriver();
 int KthSmalllestNoInArray();
+
+void Driver_LCA_In_BSTTree();
+
+void Driver_for_LCA_in_simpleTree();
+
+
+
+
+
+
+
+
