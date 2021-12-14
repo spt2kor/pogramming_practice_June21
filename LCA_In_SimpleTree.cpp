@@ -12,13 +12,71 @@ struct Node {
 Node* root = nullptr;
 
 struct List
-bool FindNGetPath(int m)
 {
+	Node* cn;
+	List* nxt;
 
+	List(Node* cn=nullptr, List* nxt=nullptr) : cn(cn), nxt(nxt)
+	{}
+};
+
+bool FindNGetPath(int m, Node* rt,  List* &l)
+{
+	if (!rt)
+	{
+		l = nullptr;
+	}
+	else
+	{
+		l = new List(rt);
+		if (rt->v == m)
+		{
+			return true;
+		}
+		else
+		{
+			if (FindNGetPath(m, rt->l, l->nxt))
+			{
+				return true;
+			}
+			else if (FindNGetPath(m, rt->r, l->nxt))
+			{
+				return true;
+			}
+		}
+	}
+
+	return false;
 }
 
 void Find_LCA(int m , int n)
 {
+	cout << "\n LCA of m= " << m << ", and n= " << n << " : ";
+	List* p = nullptr;
+	FindNGetPath(m, root, p);
+
+	List* q = nullptr;
+	FindNGetPath(m, root, q);
+
+	List* r = p;
+	List* s = q;
+	Node* re = nullptr;
+	while (r && s)
+	{
+		if (r->cn->v == s->cn->v)
+		{
+			re = r->cn;
+
+			r = r->nxt;
+			s = s->nxt;
+		}
+		else
+			break;
+	}
+	if (re)
+		cout << " found: value : " << re->v << endl;
+	else
+		cout << " Not found" << endl;
 
 }
 
